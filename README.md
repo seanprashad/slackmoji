@@ -1,4 +1,4 @@
-# Popular Emojis for Slack ![](./examples/all-the-things.jpg) ![](./examples/blob-pkmn-ghastly.png) ![](./examples/l-a.jpg) ![](./examples/meow-love.png) ![](./examples/parrot-reverse.gif) ![](./examples/party-cat2.png) ![](./examples/shiblob-photo.png)
+# Popular Emojis for Slack ![](./examples/all-the-things.jpg) ![](./examples/blob-pkmn-ghastly.png) ![](./examples/l-a.jpg) ![](./examples/meow-love.png) ![](./examples/party-cat2.png) ![](./examples/shiblob-photo.png)
 
 ## Purpose
 
