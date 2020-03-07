@@ -1,6 +1,7 @@
 ## Llamas!
 
-From the Deviantart emoticons by [Jerikuto](https://www.deviantart.com/jerikuto), originals (possibly) by [Huiro](https://huiro.deviantart.com/)
+Created by Huiro ([DeviantArt](https://huiro.deviantart.com/), [Weibo](https://www.weibo.com/huiro)),
+emoji-sized by [Jerikuto](https://www.deviantart.com/jerikuto)
 
 ![llama-angry.gif](llama-angry.gif)
 ![llama-awesome.gif](llama-awesome.gif)
@@ -11,8 +12,6 @@ From the Deviantart emoticons by [Jerikuto](https://www.deviantart.com/jerikuto)
 ![llama-blood-tears.gif](llama-blood-tears.gif)
 ![llama-blush.gif](llama-blush.gif)
 ![llama-bored.gif](llama-bored.gif)
-![llama-bouncy-brown.gif](llama-bouncy-brown.gif)
-![llama-bouncy-white.gif](llama-bouncy-white.gif)
 ![llama-cheeks.gif](llama-cheeks.gif)
 ![llama-clapping.gif](llama-clapping.gif)
 ![llama-come-here.gif](llama-come-here.gif)
