@@ -39,7 +39,7 @@ extension, or another browsers equivalent.
 ## Common Errors
 
 - GIFs over 100 kb will result in a `too many frames` error - use
-  [Ezgif.com](https://ezgif.com/resize) to scale down images over 100 kb
+  [Ezgif.com](https://ezgif.com/optimize) to scale down images over 100 kb
 - Nonconformant file names will result in a `error_bad_name_i18n` error
 
 ## Credits
