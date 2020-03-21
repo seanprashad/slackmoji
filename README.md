@@ -1,27 +1,15 @@
-# Slackmojis
-
-## Purpose
-
-This repository contains a collection of popular emojis with instructions on
-mass upload to a Slack workspace, whether you're a computer expert or not!
-
-Current emojis include Blobs (`:blob-xxx:`), Shiblobs (`:shiblob-xxx:`), Party
-everything (`:party-xxx:`), and much more! Each collection of emojis is located
-in their own folder.
-
-Please note that you must have the necessary privileges to upload emojis - see
-the [Slack Help
-Center](https://slack.com/intl/en-ca/help/articles/206870177-add-custom-emoji)
-for more details.
+![S](./examples/l-s.jpg) ![L](./examples/l-l.jpg) ![A](./examples/l-a.jpg)
+![C](./examples/l-c.jpg) ![K](./examples/l-k.jpg) ![M](./examples/l-m.jpg)
+![O](./examples/l-o.jpg) ![J](./examples/l-j.jpg) ![I](./examples/l-i.jpg) ![S](./examples/l-s.jpg)
 
 ## Requirements
 
-To facilitate mass uploads of 100 at a time, it is strongly considered to install the
+Install the
 [Neutral Face
 emoji](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)
-extension, or another browsers equivalent.
+extension to upload 100 emojis at once.
 
-## Tutorial
+## Uploading Emojis
 
 1. Ensure you are logged into the correct Slack workspace
 1. Clone or [download this
@@ -32,15 +20,11 @@ extension, or another browsers equivalent.
    click `Customize Slack`. Your web browser should open a new tab directly to
    the `Customize Your Workspace` page.
 1. If you have not installed the Chrome extension for mass uploading emojis, see
-   the [Requirements](#requirements) section
-1. Open finder or windows explorer, select up to 100 emojis and drag and drop
-   them into the Bulk Emoji Uploader section
-
-## Common Errors
-
-- GIFs over 100 kb will result in a `too many frames` error - use
-  [Ezgif.com](https://ezgif.com/resize) to scale down images over 100 kb
-- Nonconformant file names will result in a `error_bad_name_i18n` error
+   the [Requirements](#requirements) section.
+1. Open finder or windows explorer, select up to 100 emojis and then drag and drop
+   them into the Bulk Emoji Uploader section.
+1. Wait a few minutes before uploading more emojis as Slack's
+   rate-limiter will kick in.
 
 ## Credits
 
