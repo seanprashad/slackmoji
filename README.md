@@ -1,8 +1,8 @@
 ![S](./examples/l-s.jpg) ![L](./examples/l-l.jpg) ![A](./examples/l-a.jpg)
 ![C](./examples/l-c.jpg) ![K](./examples/l-k.jpg) ![M](./examples/l-m.jpg)
-![O](./examples/l-o.jpg) ![J](./examples/l-j.jpg) ![I](./examples/l-i.jpg) ![S](./examples/l-s.jpg)
+![O](./examples/l-o.jpg) ![J](./examples/l-j.jpg) ![I](./examples/l-i.jpg)
 
-## Uploading Emoji
+## Adding Emoji to Slack
 
 1. Clone or [download this
    repository](https://github.com/SeanPrashad/slackmojis/archive/master.zip) to
@@ -14,15 +14,15 @@
 
 <summary>Option 1: Respectful Emoji Tool extension</summary>
 
-_Note_: This tool has been adapted from the [Neutral Face Emoji Tool](https://github.com/Fauntleroy/neutral-face-emoji-tools) and now lives
-here: https://github.com/SeanPrashad/respectful-emoji-tool#respectful-emoji-tool
-
 1. Open Chrome and browse to `chrome://extensions`
 1. Click on the `Load unpacked` button and select the `extension` folder from
    within this repo
 1. Navigate to `mySlackWorkspaceURL/customize/emoji`, where `mySlackWorkspaceURL` is the URL of your Slack workspace to begin uploading emoji
 
 **Note**: 20 emoji will be uploaded per minute - be patient!
+
+**Note**: This extension has been adapted from the [Neutral Face Emoji Tool](https://github.com/Fauntleroy/neutral-face-emoji-tools) and now lives
+[here](https://github.com/SeanPrashad/respectful-emoji-tool#respectful-emoji-tool)!
 
 </details>
 
@@ -51,10 +51,25 @@ here: https://github.com/SeanPrashad/respectful-emoji-tool#respectful-emoji-tool
 
 </details>
 
+## Contributing New Emoji
+
+Contributions are always welcome! In your pull request, please make sure to do
+the following:
+
+- Create a new folder with a name that reflects the theme of the emoji you are
+  adding
+- Ensure each emoji is under 100 kb in size and of a `.png`, `.jpg`, or `.gif`
+  format
+- Ensure that each emoji is prefixed with the theme plus a hyphen, ie.
+  `gopha-xxx`; this will allow users in Slack to easily search for `gopha-` and
+  view all emoji for that category
+- **[TODO - March 2020]**: Generate a `README` in the new subfolder that will showcase all of the
+  new emoji
+
 ## Common Errors
 
-- GIFs over 100 kb will result in an upload error - use
-  [Ezgif.com](https://ezgif.com/optimize) to scale down images over 100 kb
+- Gifs over 100 KB will result in an upload error - use
+  [Ezgif.com](https://ezgif.com/optimize) to resize images under 100 KB
 - Emoji which conflict with standard emoji names in other languages will
   result in a `error_bad_name_i18n` error
 
