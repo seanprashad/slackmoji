@@ -22,17 +22,17 @@ handles Slack's rate limit.
    [these instructions](https://github.com/jackellenberger/emojme#finding-a-slack-token).
    (The team/email/password approach has never worked for me, but token works great.)
 1. Stick the token in a variable, to keep it out of your shell history:
-```
-$ read -s TOKEN
-[paste token and hit enter]
-```
+   ```
+   $ read -s TOKEN
+   [paste token and hit enter]
+   ```
 1. Change to the directory you want to import emoji from
 1. Import them like so, substituting the name of your slack workspace. The `xargs` works
    around an open-files bug I encountered, and the rate-limit (one every 4s or 15/minute)
    is just under Slack's reported 20-request-per-minute limit.
-```
-$ ls -1 | xargs -n 20 slack-emoji-upload -team YOUR_SLACK_TEAM -token $TOKEN -rate-limit 4s
-```
+   ```
+   $ ls -1 | xargs -n 20 slack-emoji-upload -team YOUR_SLACK_TEAM -token $TOKEN -rate-limit 4s
+   ```
 
 #### Option 2: Chrome extension
 
