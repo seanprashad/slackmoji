@@ -20,11 +20,17 @@ extension to upload 100 emojis at once.
    click `Customize Slack`. Your web browser should open a new tab directly to
    the `Customize Your Workspace` page.
 1. If you have not installed the Chrome extension for mass uploading emojis, see
-   the [Requirements](#requirements) section.
+   the [Requirements](#requirements) section
 1. Open finder or windows explorer, select up to 100 emojis and then drag and drop
    them into the Bulk Emoji Uploader section.
 1. Wait a few minutes before uploading more emojis as Slack's
    rate-limiter will kick in.
+
+## Common Errors
+
+- GIFs over 100 kb will result in a `too many frames` error - use
+  [Ezgif.com](https://ezgif.com/optimize) to scale down images over 100 kb
+- Nonconformant file names will result in a `error_bad_name_i18n` error
 
 ## Credits
 
@@ -32,6 +38,7 @@ All emojis were sourced from the following repositories/websites:
 
 - Blob folder: https://blobs.gg
 - Gopha folder: https://github.com/tenntenn/gopher-stickers
+- Llama folder:  https://www.weibo.com/huiro, https://www.deviantart.com/jerikuto
 - Meow folder: https://blobs.gg
 - Parrots folder: https://github.com/jmhobbs/cultofthepartyparrot.com
 - Party folder: https://github.com/aendrew/party-everything
