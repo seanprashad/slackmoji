@@ -10,42 +10,46 @@
    third-party or built-in tool made for extracting archives.
 1. Follow one of the options below to begin uploading emoji:
 
-   <details>
-   <summary>Option 1: Respectful Emoji Tool extension</summary>
+<details>
 
-   _Note_: This tool has been adapted from the [Neutral Face Emoji Tool](https://github.com/Fauntleroy/neutral-face-emoji-tools) and now lives
-   here: https://github.com/SeanPrashad/respectful-emoji-tool#respectful-emoji-tool
+<summary>Option 1: Respectful Emoji Tool extension</summary>
 
-   1. Open Chrome and browse to `chrome://extensions/`
-   1. Click on the `Load unpacked` button and select the `extension` folder from
-      within this repo
-   1. Navigate to `mySlackWorkspaceURL/customize/emoji`, where `mySlackWorkspaceURL` is the URL of your Slack workspace to begin uploading emoji
+_Note_: This tool has been adapted from the [Neutral Face Emoji Tool](https://github.com/Fauntleroy/neutral-face-emoji-tools) and now lives
+here: https://github.com/SeanPrashad/respectful-emoji-tool#respectful-emoji-tool
 
-   **Note**: 20 emoji will be uploaded per minute - be patient!
+1. Open Chrome and browse to `chrome://extensions`
+1. Click on the `Load unpacked` button and select the `extension` folder from
+   within this repo
+1. Navigate to `mySlackWorkspaceURL/customize/emoji`, where `mySlackWorkspaceURL` is the URL of your Slack workspace to begin uploading emoji
 
-   </details>
+**Note**: 20 emoji will be uploaded per minute - be patient!
 
-   <details>
-   <summary>Option 2: CLI</summary>
+</details>
 
-   1. Install [slack-emoji-upload](https://github.com/sgreben/slack-emoji-upload)
-   1. Get an `xoxs-*` Slack token following
-      [these instructions](https://github.com/jackellenberger/emojme#finding-a-slack-token).
-      (The team/email/password approach has never worked for me, but token works great.)
-   1. Stick the token in a variable, to keep it out of your shell history:
-      ```
-      $ read -s TOKEN
-      [paste token and hit enter]
-      ```
-   1. Change to the directory you want to import emoji from
-   1. Import them like so, substituting the name of your slack workspace. The `xargs` works
-      around an open-files bug I encountered, and the rate-limit (one every 4s or 15/minute)
-      is just under Slack's reported 20-request-per-minute limit.
-      ```
-      $ ls -1 | xargs -n 20 slack-emoji-upload -team YOUR_SLACK_TEAM -token $TOKEN -rate-limit 4s
-      ```
+<details>
+<summary>Option 2: CLI</summary>
 
-   </details>
+1.  Install [slack-emoji-upload](https://github.com/sgreben/slack-emoji-upload)
+1.  Get an `xoxs-*` Slack token following
+    [these instructions](https://github.com/jackellenberger/emojme#finding-a-slack-token).
+    (The team/email/password approach has never worked for me, but token works great.)
+1.  Stick the token in a variable, to keep it out of your shell history:
+
+    ```
+    $ read -s TOKEN
+    [paste token and hit enter]
+    ```
+
+1.  Change to the directory you want to import emoji from
+1.  Import them like so, substituting the name of your slack workspace. The `xargs` works
+    around an open-files bug I encountered, and the rate-limit (one every 4s or 15/minute)
+    is just under Slack's reported 20-request-per-minute limit.
+
+    ```
+    $ ls -1 | xargs -n 20 slack-emoji-upload -team YOUR_SLACK_TEAM -token $TOKEN -rate-limit 4s
+    ```
+
+</details>
 
 ## Common Errors
 
