@@ -10,7 +10,7 @@
    third-party or built-in tool made for extracting archives.
 1. Follow one of the options under [Uploading](#Uploading) below.
 
-## Uploading
+### Uploading Options
 
 ### Option 1: `slack-emoji-upload` command
 
