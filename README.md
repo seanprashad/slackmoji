@@ -34,7 +34,7 @@ $ read -s TOKEN
 $ ls -1 | xargs -n 20 slack-emoji-upload -team YOUR_SLACK_TEAM -token $TOKEN -rate-limit 4s
 ```
 
-### Option 2: Chrome extension
+#### Option 2: Chrome extension
 
 This is browser-based, but doesn't respect Slack's rate limit. Unfortunately it looks
 like the author of the extension has stopped working on it, as there are rate-limiting
