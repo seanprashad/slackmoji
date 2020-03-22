@@ -13,6 +13,9 @@
    <details>
    <summary>Option 1: Respectful Emoji Tool extension</summary>
 
+   _Note_: This tool has been adapted from the [Neutral Face Emoji Tool](https://github.com/Fauntleroy/neutral-face-emoji-tools) and now lives
+   here: https://github.com/SeanPrashad/respectful-emoji-tool#respectful-emoji-tool
+
    1. Open Chrome and browse to `chrome://extensions/`
    1. Click on `Load unpacked` and select the `/dist` folder from this repo
    1. Navigate to `mySlackWorkspaceURL/customize/emoji`, where `mySlackWorkspaceURL` is the URL of your Slack workspace to begin uploading emoji
