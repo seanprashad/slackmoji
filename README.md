@@ -12,7 +12,7 @@
 
 ### Uploading Options
 
-### Option 1: `slack-emoji-upload` command
+#### Option 1: `slack-emoji-upload` command
 
 If you're comfortable in a terminal, this is the recommended approach, as it
 handles Slack's rate limit.
