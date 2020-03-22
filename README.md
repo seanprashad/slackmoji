@@ -8,7 +8,7 @@
    repository](https://github.com/SeanPrashad/slackmojis/archive/master.zip) to
    your local machine. If you have downloaded the `.zip` file, unzip it using a
    third-party or built-in tool made for extracting archives.
-1. Follow one of the options under [Uploading](#Uploading) below.
+1. Follow one of the options under [Uploading Options](#Uploading-Options) below.
 
 ### Uploading Options
 
