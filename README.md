@@ -1,20 +1,8 @@
-# Slackmojis
+![S](./examples/l-s.jpg) ![L](./examples/l-l.jpg) ![A](./examples/l-a.jpg)
+![C](./examples/l-c.jpg) ![K](./examples/l-k.jpg) ![M](./examples/l-m.jpg)
+![O](./examples/l-o.jpg) ![J](./examples/l-j.jpg) ![I](./examples/l-i.jpg) ![S](./examples/l-s.jpg)
 
-## Purpose
-
-This repository contains a collection of popular emoji with instructions on
-mass upload to a Slack workspace, whether you're a computer expert or not!
-
-Current emoji include Blobs (`:blob-xxx:`), Shiblobs (`:shiblob-xxx:`), Party
-everything (`:party-xxx:`), and much more! Each collection of emoji is located
-in their own folder.
-
-Please note that you must have the necessary privileges to upload emoji - see
-the [Slack Help
-Center](https://slack.com/intl/en-ca/help/articles/206870177-add-custom-emoji)
-for more details.
-
-## Tutorial
+## Uploading Emoji
 
 1. Clone or [download this
    repository](https://github.com/SeanPrashad/slackmojis/archive/master.zip) to
@@ -54,15 +42,19 @@ patches [available](https://github.com/Fauntleroy/neutral-face-emoji-tools/pull/
 months but unmerged.
 
 1. Install [Neutral Face
-Emoji Tools](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)
-1. Go to the Emoji page of the correct Slack workspace
-1. Drag your emoji, 10 or so at a time, into the box at the top of the emoji page.
-1. Watch for HTTP errors which are almost certainly rate-limiting.
+   Emoji Tools](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)
+1. From within your Slack workspace, click on the Workspace name and
+   click `Customize Slack`. Your web browser should open a new tab directly to
+   the `Customize Your Workspace` page.
+1. Open finder or windows explorer, select up to 100 emoji and then drag and drop
+   them into the Bulk Emoji Uploader section.
+1. Wait a few minutes before uploading more emoji as Slack's
+   rate-limiter will kick in.
 
 ## Common Errors
 
-- GIFs over 100 kb will result in a `too many frames` error - use
-  [Ezgif.com](https://ezgif.com/resize) to scale down images over 100 kb
+- GIFs over 100 kb will result in an upload error - use
+  [Ezgif.com](https://ezgif.com/optimize) to scale down images over 100 kb
 - Emoji which conflict with standard emoji names in other languages will
   result in a `error_bad_name_i18n` error
 
