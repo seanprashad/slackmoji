@@ -64,6 +64,7 @@ All emoji were sourced from the following repositories/websites:
 
 - Blob folder: https://blobs.gg
 - Gopha folder: https://github.com/tenntenn/gopher-stickers
+- Llama folder:  https://www.weibo.com/huiro, https://www.deviantart.com/jerikuto
 - Meow folder: https://blobs.gg
 - Parrots folder: https://github.com/jmhobbs/cultofthepartyparrot.com
 - Party folder: https://github.com/aendrew/party-everything
