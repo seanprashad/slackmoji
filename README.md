@@ -8,14 +8,24 @@
    repository](https://github.com/SeanPrashad/slackmojis/archive/master.zip) to
    your local machine. If you have downloaded the `.zip` file, unzip it using a
    third-party or built-in tool made for extracting archives.
-1. Follow one of the options under [Uploading Options](#Uploading-Options) below.
+1. Follow one of the options below:
 
-   ### Uploading Options
+   <details>
+   <summary>Option 1: Respectful Emoji Tool extension</summary>
 
-   #### Option 1: `slack-emoji-upload` command
+   _Note_: This tool has been adapted from the [Neutral Face Emoji Tool](https://github.com/Fauntleroy/neutral-face-emoji-tools) and now lives
+   here: https://github.com/SeanPrashad/respectful-emoji-tool#respectful-emoji-tool
 
-   If you're comfortable in a terminal, this is the recommended approach, as it
-   handles Slack's rate limit.
+   1. Open Chrome and browse to `chrome://extensions/`
+   1. Click on `Load unpacked` and select the `/dist` folder from this repo
+   1. Navigate to `mySlackWorkspaceURL/customize/emoji`, where `mySlackWorkspaceURL` is the URL of your Slack workspace to begin uploading emoji
+
+   **Note**: 20 emoji will be uploaded per minute - be patient!
+
+   </details>
+
+   <details>
+   <summary>Option 2: CLI</summary>
 
    1. Install [slack-emoji-upload](https://github.com/sgreben/slack-emoji-upload)
    1. Get an `xoxs-*` Slack token following
@@ -34,22 +44,7 @@
       $ ls -1 | xargs -n 20 slack-emoji-upload -team YOUR_SLACK_TEAM -token $TOKEN -rate-limit 4s
       ```
 
-   #### Option 2: Chrome extension
-
-   This is browser-based, but doesn't respect Slack's rate limit. Unfortunately it looks
-   like the author of the extension has stopped working on it, as there are rate-limiting
-   patches [available](https://github.com/Fauntleroy/neutral-face-emoji-tools/pull/15) for
-   months but unmerged.
-
-   1. Install [Neutral Face
-      Emoji Tools](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)
-   1. From within your Slack workspace, click on the Workspace name and
-      click `Customize Slack`. Your web browser should open a new tab directly to
-      the `Customize Your Workspace` page.
-   1. Open finder or windows explorer, select up to 100 emoji and then drag and drop
-      them into the Bulk Emoji Uploader section.
-   1. Wait a few minutes before uploading more emoji as Slack's
-      rate-limiter will kick in.
+   </details>
 
 ## Common Errors
 
@@ -64,7 +59,7 @@ All emoji were sourced from the following repositories/websites:
 
 - Blob folder: https://blobs.gg
 - Gopha folder: https://github.com/tenntenn/gopher-stickers
-- Llama folder:  https://www.weibo.com/huiro, https://www.deviantart.com/jerikuto
+- Llama folder: https://www.weibo.com/huiro, https://www.deviantart.com/jerikuto
 - Meow folder: https://blobs.gg
 - Parrots folder: https://github.com/jmhobbs/cultofthepartyparrot.com
 - Party folder: https://github.com/aendrew/party-everything
