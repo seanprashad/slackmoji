@@ -2,49 +2,73 @@
 
 ## Purpose
 
-This repository contains a collection of popular emojis with instructions on
+This repository contains a collection of popular emoji with instructions on
 mass upload to a Slack workspace, whether you're a computer expert or not!
 
-Current emojis include Blobs (`:blob-xxx:`), Shiblobs (`:shiblob-xxx:`), Party
-everything (`:party-xxx:`), and much more! Each collection of emojis is located
+Current emoji include Blobs (`:blob-xxx:`), Shiblobs (`:shiblob-xxx:`), Party
+everything (`:party-xxx:`), and much more! Each collection of emoji is located
 in their own folder.
 
-Please note that you must have the necessary privileges to upload emojis - see
+Please note that you must have the necessary privileges to upload emoji - see
 the [Slack Help
 Center](https://slack.com/intl/en-ca/help/articles/206870177-add-custom-emoji)
 for more details.
 
-## Requirements
-
-To facilitate mass uploads of 100 at a time, it is strongly considered to install the
-[Neutral Face
-emoji](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)
-extension, or another browsers equivalent.
-
 ## Tutorial
 
-1. Ensure you are logged into the correct Slack workspace
 1. Clone or [download this
    repository](https://github.com/SeanPrashad/slackmojis/archive/master.zip) to
    your local machine. If you have downloaded the `.zip` file, unzip it using a
    third-party or built-in tool made for extracting archives.
-1. From within your Slack workspace, click on the Workspace name and
-   click `Customize Slack`. Your web browser should open a new tab directly to
-   the `Customize Your Workspace` page.
-1. If you have not installed the Chrome extension for mass uploading emojis, see
-   the [Requirements](#requirements) section
-1. Open finder or windows explorer, select up to 100 emojis and drag and drop
-   them into the Bulk Emoji Uploader section
+1. Follow one of the options under [Uploading](#Uploading) below.
+
+## Uploading
+
+### Option 1: `slack-emoji-upload` command
+
+If you're comfortable in a terminal, this is the recommended approach, as it
+handles Slack's rate limit.
+
+1. Install [slack-emoji-upload](https://github.com/sgreben/slack-emoji-upload)
+1. Get an `xoxs-*` Slack token following
+   [these instructions](https://github.com/jackellenberger/emojme#finding-a-slack-token).
+   (The team/email/password approach has never worked for me, but token works great.)
+1. Stick the token in a variable, to keep it out of your shell history:
+```
+$ read -s TOKEN
+[paste token and hit enter]
+```
+1. Change to the directory you want to import emoji from
+1. Import them like so, substituting the name of your slack workspace. The `xargs` works
+   around an open-files bug I encountered, and the rate-limit (one every 4s or 15/minute)
+   is just under Slack's reported 20-request-per-minute limit.
+```
+$ ls -1 | xargs -n 20 slack-emoji-upload -team YOUR_SLACK_TEAM -token $TOKEN -rate-limit 4s
+```
+
+### Option 2: Chrome extension
+
+This is browser-based, but doesn't respect Slack's rate limit. Unfortunately it looks
+like the author of the extension has stopped working on it, as there are rate-limiting
+patches [available](https://github.com/Fauntleroy/neutral-face-emoji-tools/pull/15) for
+months but unmerged.
+
+1. Install [Neutral Face
+Emoji Tools](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)
+1. Go to the Emoji page of the correct Slack workspace
+1. Drag your emoji, 10 or so at a time, into the box at the top of the emoji page.
+1. Watch for HTTP errors which are almost certainly rate-limiting.
 
 ## Common Errors
 
 - GIFs over 100 kb will result in a `too many frames` error - use
   [Ezgif.com](https://ezgif.com/resize) to scale down images over 100 kb
-- Nonconformant file names will result in a `error_bad_name_i18n` error
+- Emoji which conflict with standard emoji names in other languages will
+  result in a `error_bad_name_i18n` error
 
 ## Credits
 
-All emojis were sourced from the following repositories/websites:
+All emoji were sourced from the following repositories/websites:
 
 - Blob folder: https://blobs.gg
 - Gopha folder: https://github.com/tenntenn/gopher-stickers
