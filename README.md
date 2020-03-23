@@ -51,7 +51,7 @@ See below for previews from all categories!
 ![parrot-angry](examples/parrots/parrot-angry.gif)
 ![parrot-beer](examples/parrots/parrot-beer.gif)
 ![parrot-bouncing](examples/parrots/parrot-bouncing.gif)
-![parrot-coffee](examples/parrots/parrot-coffee.gif)
+![parrot-aussie](examples/parrots/parrot-aussie.gif)
 ![parrot-cool](examples/parrots/parrot-cool.gif)
 
 ### [Party](emojis/party/README.md)
