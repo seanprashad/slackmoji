@@ -111,7 +111,7 @@ the following:
 1. Ensure that each emoji is prefixed with the theme plus a hyphen, ie.
    `gopha-xxx`; this will allow users in Slack to easily search for `gopha-` and
    view all emoji for that category
-1. Run `node generate-md.js` to generate a `README.md` containing all of the
+1. Run `node generate-readme.js` to generate a `README.md` containing all of the
    emojis in your new folder!
 
 ## Common Errors
