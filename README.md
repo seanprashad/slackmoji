@@ -1,6 +1,6 @@
-![S](examples/l-s.jpg) ![L](examples/l-l.jpg) ![A](examples/l-a.jpg)
-![C](examples/l-c.jpg) ![K](examples/l-k.jpg) ![M](examples/l-m.jpg)
-![O](examples/l-o.jpg) ![J](examples/l-j.jpg) ![I](examples/l-i.jpg)
+![S](examples/title/l-s.jpg) ![L](examples/title/l-l.jpg) ![A](examples/title/l-a.jpg)
+![C](examples/title/l-c.jpg) ![K](examples/title/l-k.jpg) ![M](examples/title/l-m.jpg)
+![O](examples/title/l-o.jpg) ![J](examples/title/l-j.jpg) ![I](examples/title/l-i.jpg)
 
 ## Collections
 
@@ -8,47 +8,91 @@ See below for previews from all categories!
 
 ### [Blob](emojis/blob/README.md)
 
-![blob-100-gif.gif](emojis/blob/blob-100-gif.gif)![blob-amused.png](emojis/blob/blob-amused.png)![blob-avicii-gif.gif](emojis/blob/blob-avicii-gif.gif)
+![blob-catheart](examples/blob/blob-catheart.png)
+![blob-love-gif](examples/blob/blob-love-gif.gif)
+![blob-frog](examples/blob/blob-frog.png)
+![blob-turtle-gif](examples/blob/blob-turtle-gif.gif)
+![blob-wave-gif](examples/blob/blob-wave-gif.gif)
 
 ### [Blob-Sign](emojis/blob-sign/README.md)
 
-![blob-sign-af.png](emojis/blob-sign/blob-sign-af.png)![blob-sign-aye.png](emojis/blob-sign/blob-sign-aye.png)![blob-sign-bai.png](emojis/blob-sign/blob-sign-bai.png)
+![blob-sign-omg](examples/blob-sign/blob-sign-omg.png)
+![blob-sign-lol](examples/blob-sign/blob-sign-lol.png)
+![blob-sign-oof](examples/blob-sign/blob-sign-oof.png)
+![blob-sign-brb](examples/blob-sign/blob-sign-brb.png)
+![blob-sign-gg](examples/blob-sign/blob-sign-gg.png)
 
 ### [Gopha](emojis/gopha/README.md)
 
-![gopha-angry.png](emojis/gopha/gopha-angry.png)![gopha-autumn.png](emojis/gopha/gopha-autumn.png)![gopha-awake.png](emojis/gopha/gopha-awake.png)
+![gopha-ok](examples/gopha/gopha-ok.png)
+![gopha-good-morning](examples/gopha/gopha-good-morning.png)
+![gopha-work](examples/gopha/gopha-work.png)
+![gopha-hide](examples/gopha/gopha-hide.png)
+![gopha-lovely](examples/gopha/gopha-lovely.png)
 
 ### [Llama](emojis/llamas/README.md)
 
-![llama-angry.gif](emojis/llamas/llama-angry.gif)![llama-awesome.gif](emojis/llamas/llama-awesome.gif)![llama-bleh.gif](emojis/llamas/llama-bleh.gif)
+![llama-hi-gif](examples/llamas/llama-hi-gif.gif)
+![llama-blush-gif](examples/llamas/llama-blush-gif.gif)
+![llama-awesome-gif](examples/llamas/llama-awesome-gif.gif)
+![llama-come-here-gif](examples/llamas/llama-come-here-gif.gif)
+![llama-crying-gif](examples/llamas/llama-crying-gif.gif)
 
 ### [Meow](emojis/meow/README.md)
 
-![meow-0w0.png](emojis/meow/meow-0w0.png)![meow-alien.png](emojis/meow/meow-alien.png)![meow-angry-intensifies-gif.gif](emojis/meow/meow-angry-intensifies-gif.gif)
+![meow-morning](examples/meow/meow-morning.png)
+![meow-love](examples/meow/meow-love.png)
+![meow-bread](examples/meow/meow-bread.png)
+![meow-cookie](examples/meow/meow-cookie.png)
+![meow-box](examples/meow/meow-box.png)
 
 ### [Parrots](emojis/parrots/README.md)
 
-![parrot-60-fps.gif](emojis/parrots/parrot-60-fps.gif)![parrot-abkhazia.gif](emojis/parrots/parrot-abkhazia.gif)![parrot-afghanistan.gif](emojis/parrots/parrot-afghanistan.gif)
+![parrot-angry](examples/parrots/parrot-angry.gif)
+![parrot-beer](examples/parrots/parrot-beer.gif)
+![parrot-bouncing](examples/parrots/parrot-bouncing.gif)
+![parrot-coffee](examples/parrots/parrot-coffee.gif)
+![parrot-cool](examples/parrots/parrot-cool.gif)
 
 ### [Party](emojis/party/README.md)
 
-![party-+1.png](emojis/party/party-+1.png)![party--1.png](emojis/party/party--1.png)![party-100.png](emojis/party/party-100.png)
+![party-100](examples/party/party-100.png)
+![party-banana](examples/party/party-banana.png)
+![party-cat](examples/party/party-cat.png)
+![party-computer](examples/party/party-computer.png)
+![party-wink](examples/party/party-wink.png)
 
 ### [Pokemon](emojis/pokemon/README.md)
 
-![blob-pkmn-bellsprout.png](emojis/pokemon/blob-pkmn-bellsprout.png)![blob-pkmn-blastoise.png](emojis/pokemon/blob-pkmn-blastoise.png)![blob-pkmn-bulbasaur.png](emojis/pokemon/blob-pkmn-bulbasaur.png)
+![pkmn-pokeball](examples/pokemon/blob-pkmn-pokeball.png)
+![pkmn-meowth](examples/pokemon/blob-pkmn-meowth.png)
+![pkmn-pikachu](examples/pokemon/blob-pkmn-pikachu.png)
+![pkmn-snorlax](examples/pokemon/blob-pkmn-snorlax.png)
+![pkmn-wooloo](examples/pokemon/blob-pkmn-wooloo.gif)
 
 ### [Scrabble](emojis/scrabble/README.md)
 
-![l----a.jpg](emojis/scrabble/l----a.jpg)![l----b.jpg](emojis/scrabble/l----b.jpg)![l----c.jpg](emojis/scrabble/l----c.jpg)
+![l-e](examples/scrabble/l-e.jpg)
+![l-m](examples/scrabble/l-m.jpg)
+![l-o](examples/scrabble/l-o.jpg)
+![l-j](examples/scrabble/l-j.jpg)
+![l-i](examples/scrabble/l-i.jpg)
 
 ### [Shiblob](emojis/scrabble/README.md)
 
-![shiblob-ban.png](emojis/shiblob/shiblob-ban.png)![shiblob-cool.png](emojis/shiblob/shiblob-cool.png)![shiblob-evil.png](emojis/shiblob/shiblob-evil.png)
+![shiblob-peek](examples/shiblob/shiblob-peek.png)
+![shiblob-photo](examples/shiblob/shiblob-photo.png)
+![shiblob-reach](examples/shiblob/shiblob-reach.png)
+![shiblob-nerd](examples/shiblob/shiblob-nerd.png)
+![shiblob-melt](examples/shiblob/shiblob-melt.png)
 
 ### [Slackmojis.com](emojis/slackmoji.com/README.md)
 
-![bb8.png](emojis/slackmoji.com/bb8.png)![bb8flame.png](emojis/slackmoji.com/bb8flame.png)![beanstalk.png](emojis/slackmoji.com/beanstalk.png)
+![please-use-direct-message](examples/slackmoji.com/please-use-direct-message.gif)
+![question](examples/slackmoji.com/question.gif)
+![take-my-money](examples/slackmoji.com/take-my-money.png)
+![umbreon](examples/slackmoji.com/umbreon.gif)
+![yoshi](examples/slackmoji.com/yoshi.gif)
 
 ## Adding Emoji to Slack
 
