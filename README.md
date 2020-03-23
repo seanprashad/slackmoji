@@ -1,6 +1,54 @@
-![S](./examples/l-s.jpg) ![L](./examples/l-l.jpg) ![A](./examples/l-a.jpg)
-![C](./examples/l-c.jpg) ![K](./examples/l-k.jpg) ![M](./examples/l-m.jpg)
-![O](./examples/l-o.jpg) ![J](./examples/l-j.jpg) ![I](./examples/l-i.jpg)
+![S](examples/l-s.jpg) ![L](examples/l-l.jpg) ![A](examples/l-a.jpg)
+![C](examples/l-c.jpg) ![K](examples/l-k.jpg) ![M](examples/l-m.jpg)
+![O](examples/l-o.jpg) ![J](examples/l-j.jpg) ![I](examples/l-i.jpg)
+
+## Collections
+
+See below for previews from all categories!
+
+### [Blob](emojis/blob/README.md)
+
+![blob-100-gif.gif](emojis/blob/blob-100-gif.gif)![blob-amused.png](emojis/blob/blob-amused.png)![blob-avicii-gif.gif](emojis/blob/blob-avicii-gif.gif)
+
+### [Blob-Sign](emojis/blob-sign/README.md)
+
+![blob-sign-af.png](emojis/blob-sign/blob-sign-af.png)![blob-sign-aye.png](emojis/blob-sign/blob-sign-aye.png)![blob-sign-bai.png](emojis/blob-sign/blob-sign-bai.png)
+
+### [Gopha](emojis/gopha/README.md)
+
+![gopha-angry.png](emojis/gopha/gopha-angry.png)![gopha-autumn.png](emojis/gopha/gopha-autumn.png)![gopha-awake.png](emojis/gopha/gopha-awake.png)
+
+### [Llama](emojis/llamas/README.md)
+
+![llama-angry.gif](emojis/llamas/llama-angry.gif)![llama-awesome.gif](emojis/llamas/llama-awesome.gif)![llama-bleh.gif](emojis/llamas/llama-bleh.gif)
+
+### [Meow](emojis/meow/README.md)
+
+![meow-0w0.png](emojis/meow/meow-0w0.png)![meow-alien.png](emojis/meow/meow-alien.png)![meow-angry-intensifies-gif.gif](emojis/meow/meow-angry-intensifies-gif.gif)
+
+### [Parrots](emojis/parrots/README.md)
+
+![parrot-60-fps.gif](emojis/parrots/parrot-60-fps.gif)![parrot-abkhazia.gif](emojis/parrots/parrot-abkhazia.gif)![parrot-afghanistan.gif](emojis/parrots/parrot-afghanistan.gif)
+
+### [Party](emojis/party/README.md)
+
+![party-+1.png](emojis/party/party-+1.png)![party--1.png](emojis/party/party--1.png)![party-100.png](emojis/party/party-100.png)
+
+### [Pokemon](emojis/pokemon/README.md)
+
+![blob-pkmn-bellsprout.png](emojis/pokemon/blob-pkmn-bellsprout.png)![blob-pkmn-blastoise.png](emojis/pokemon/blob-pkmn-blastoise.png)![blob-pkmn-bulbasaur.png](emojis/pokemon/blob-pkmn-bulbasaur.png)
+
+### [Scrabble](emojis/scrabble/README.md)
+
+![l----a.jpg](emojis/scrabble/l----a.jpg)![l----b.jpg](emojis/scrabble/l----b.jpg)![l----c.jpg](emojis/scrabble/l----c.jpg)
+
+### [Shiblob](emojis/scrabble/README.md)
+
+![shiblob-ban.png](emojis/shiblob/shiblob-ban.png)![shiblob-cool.png](emojis/shiblob/shiblob-cool.png)![shiblob-evil.png](emojis/shiblob/shiblob-evil.png)
+
+### [Slackmojis.com](emojis/slackmoji.com/README.md)
+
+![bb8.png](emojis/slackmoji.com/bb8.png)![bb8flame.png](emojis/slackmoji.com/bb8flame.png)![beanstalk.png](emojis/slackmoji.com/beanstalk.png)
 
 ## Adding Emoji to Slack
 
@@ -56,15 +104,15 @@
 Contributions are always welcome! In your pull request, please make sure to do
 the following:
 
-- Create a new folder with a name that reflects the theme of the emoji you are
-  adding
-- Ensure each emoji is under 100 kb in size and of a `.png`, `.jpg`, or `.gif`
-  format
-- Ensure that each emoji is prefixed with the theme plus a hyphen, ie.
-  `gopha-xxx`; this will allow users in Slack to easily search for `gopha-` and
-  view all emoji for that category
-- Run `node generate-md.js` to generate a `README.md` containing all of the
-  emojis in your new folder!
+1. Create a new folder with a name that reflects the theme of the emoji you are
+   adding
+1. Ensure each emoji is under 100 kb in size and of a `.png`, `.jpg`, or `.gif`
+   format
+1. Ensure that each emoji is prefixed with the theme plus a hyphen, ie.
+   `gopha-xxx`; this will allow users in Slack to easily search for `gopha-` and
+   view all emoji for that category
+1. Run `node generate-md.js` to generate a `README.md` containing all of the
+   emojis in your new folder!
 
 ## Common Errors
 
