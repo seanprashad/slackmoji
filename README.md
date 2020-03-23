@@ -63,8 +63,8 @@ the following:
 - Ensure that each emoji is prefixed with the theme plus a hyphen, ie.
   `gopha-xxx`; this will allow users in Slack to easily search for `gopha-` and
   view all emoji for that category
-- **[TODO - March 2020]**: Generate a `README` in the new subfolder that will showcase all of the
-  new emoji
+- Run `node generate-md.js` to generate a `README.md` containing all of the
+  emojis in your new folder!
 
 ## Common Errors
 
