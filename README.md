@@ -66,7 +66,7 @@ See below for previews from all categories!
 
 ![pkmn-pokeball](examples/pokemon/blob-pkmn-pokeball.png)
 ![pkmn-meowth](examples/pokemon/blob-pkmn-meowth.png)
-![pkmn-pikachu](examples/pokemon/blob-pkmn-pikachu.png)
+![pkmn-pikachu](examples/pokemon/blob-pkmn-pikachu.pngv)
 ![pkmn-snorlax](examples/pokemon/blob-pkmn-snorlax.png)
 ![pkmn-wooloo](examples/pokemon/blob-pkmn-wooloo.gif)
 
@@ -175,7 +175,7 @@ All emoji were sourced from the following repositories/websites:
 - Meow folder: https://blobs.gg
 - Parrots folder: https://github.com/jmhobbs/cultofthepartyparrot.com
 - Party folder: https://github.com/aendrew/party-everything
-- Pokemon folder: https://github.com/SeanPrashad/slackmojis/tree/master/pokemon
+- Pokemon folder: https://blobs.gg
 - Scrabble folder: https://slackmojis.com
 - Shiblob folder: https://blobs.gg
 - Slackmoji.com folder: https://slackmojis.com
