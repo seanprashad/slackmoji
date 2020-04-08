@@ -66,7 +66,7 @@ See below for previews from all categories!
 
 ![pkmn-pokeball](examples/pokemon/blob-pkmn-pokeball.png)
 ![pkmn-meowth](examples/pokemon/blob-pkmn-meowth.png)
-![pkmn-pikachu](examples/pokemon/blob-pkmn-pikachu.pngv)
+![pkmn-pikachu](examples/pokemon/blob-pkmn-pikachu.png)
 ![pkmn-snorlax](examples/pokemon/blob-pkmn-snorlax.png)
 ![pkmn-wooloo](examples/pokemon/blob-pkmn-wooloo.gif)
 
