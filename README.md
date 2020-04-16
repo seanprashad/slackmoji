@@ -2,6 +2,25 @@
 ![C](examples/title/l-c.jpg) ![K](examples/title/l-k.jpg) ![M](examples/title/l-m.jpg)
 ![O](examples/title/l-o.jpg) ![J](examples/title/l-j.jpg) ![I](examples/title/l-i.jpg)
 
+## Table of Contents
+
+- [Collections](#Collections)
+  - [Blob](#blob)
+  - [Blob-Sign](#blob-sign)
+  - [Gopha](#gopha)
+  - [Llama](#llama)
+  - [Meow](#meow)
+  - [Parrots](#parrots)
+  - [Party](#party)
+  - [Pokemon](#pokemon)
+  - [Scrabble](#scrabble)
+  - [Shiblob](#shiblob)
+  - [Slackmojis.com](#slackmojis.com)
+- [Adding Emoji to Slack](#Adding-Emoji-to-Slack)
+- [Contributing New Emoji](#Contributing-New-Emoji)
+- [Common Errors](#Common-Errors)
+- [Credits](#Credits)
+
 ## Collections
 
 See below for previews from all categories!
