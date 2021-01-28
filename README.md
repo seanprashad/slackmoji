@@ -25,7 +25,7 @@
 
 See below for previews from all categories!
 
-### [Blob](emojis/blob/README.md)
+### [Blob](emoji/blob/README.md)
 
 ![blob-catheart](examples/blob/blob-catheart.png)
 ![blob-love-gif](examples/blob/blob-love-gif.gif)
@@ -33,7 +33,7 @@ See below for previews from all categories!
 ![blob-turtle-gif](examples/blob/blob-turtle-gif.gif)
 ![blob-wave-gif](examples/blob/blob-wave-gif.gif)
 
-### [Blob-Sign](emojis/blob-sign/README.md)
+### [Blob-Sign](emoji/blob-sign/README.md)
 
 ![blob-sign-omg](examples/blob-sign/blob-sign-omg.png)
 ![blob-sign-lol](examples/blob-sign/blob-sign-lol.png)
@@ -41,7 +41,7 @@ See below for previews from all categories!
 ![blob-sign-brb](examples/blob-sign/blob-sign-brb.png)
 ![blob-sign-gg](examples/blob-sign/blob-sign-gg.png)
 
-### [Gopha](emojis/gopha/README.md)
+### [Gopha](emoji/gopha/README.md)
 
 ![gopha-ok](examples/gopha/gopha-ok.png)
 ![gopha-good-morning](examples/gopha/gopha-good-morning.png)
@@ -49,7 +49,7 @@ See below for previews from all categories!
 ![gopha-hide](examples/gopha/gopha-hide.png)
 ![gopha-lovely](examples/gopha/gopha-lovely.png)
 
-### [Llama](emojis/llamas/README.md)
+### [Llama](emoji/llamas/README.md)
 
 ![llama-hi-gif](examples/llamas/llama-hi-gif.gif)
 ![llama-blush-gif](examples/llamas/llama-blush-gif.gif)
@@ -57,7 +57,7 @@ See below for previews from all categories!
 ![llama-come-here-gif](examples/llamas/llama-come-here-gif.gif)
 ![llama-crying-gif](examples/llamas/llama-crying-gif.gif)
 
-### [Meow](emojis/meow/README.md)
+### [Meow](emoji/meow/README.md)
 
 ![meow-morning](examples/meow/meow-morning.png)
 ![meow-love](examples/meow/meow-love.png)
@@ -65,7 +65,7 @@ See below for previews from all categories!
 ![meow-cookie](examples/meow/meow-cookie.png)
 ![meow-box](examples/meow/meow-box.png)
 
-### [Parrots](emojis/parrots/README.md)
+### [Parrots](emoji/parrots/README.md)
 
 ![parrot-angry](examples/parrots/parrot-angry.gif)
 ![parrot-beer](examples/parrots/parrot-beer.gif)
@@ -73,7 +73,7 @@ See below for previews from all categories!
 ![parrot-aussie](examples/parrots/parrot-aussie.gif)
 ![parrot-cool](examples/parrots/parrot-cool.gif)
 
-### [Party](emojis/party/README.md)
+### [Party](emoji/party/README.md)
 
 ![party-100](examples/party/party-100.png)
 ![party-banana](examples/party/party-banana.png)
@@ -81,7 +81,7 @@ See below for previews from all categories!
 ![party-computer](examples/party/party-computer.png)
 ![party-wink](examples/party/party-wink.png)
 
-### [Pokemon](emojis/pokemon/README.md)
+### [Pokemon](emoji/pokemon/README.md)
 
 ![pkmn-pokeball](examples/pokemon/blob-pkmn-pokeball.png)
 ![pkmn-meowth](examples/pokemon/blob-pkmn-meowth.png)
@@ -89,7 +89,7 @@ See below for previews from all categories!
 ![pkmn-snorlax](examples/pokemon/blob-pkmn-snorlax.png)
 ![pkmn-wooloo](examples/pokemon/blob-pkmn-wooloo.gif)
 
-### [Scrabble](emojis/scrabble/README.md)
+### [Scrabble](emoji/scrabble/README.md)
 
 ![l-e](examples/scrabble/l-e.jpg)
 ![l-m](examples/scrabble/l-m.jpg)
@@ -97,7 +97,7 @@ See below for previews from all categories!
 ![l-j](examples/scrabble/l-j.jpg)
 ![l-i](examples/scrabble/l-i.jpg)
 
-### [Shiblob](emojis/scrabble/README.md)
+### [Shiblob](emoji/scrabble/README.md)
 
 ![shiblob-peek](examples/shiblob/shiblob-peek.png)
 ![shiblob-photo](examples/shiblob/shiblob-photo.png)
@@ -105,7 +105,7 @@ See below for previews from all categories!
 ![shiblob-nerd](examples/shiblob/shiblob-nerd.png)
 ![shiblob-melt](examples/shiblob/shiblob-melt.png)
 
-### [Slackmojis.com](emojis/slackmoji.com/README.md)
+### [Slackmojis.com](emoji/slackmoji.com/README.md)
 
 ![please-use-direct-message](examples/slackmoji.com/please-use-direct-message.gif)
 ![question](examples/slackmoji.com/question.gif)
@@ -175,7 +175,7 @@ the following:
    `gopha-xxx`; this will allow users in Slack to easily search for `gopha-` and
    view all emoji for that category
 1. Run `node generate-readme.js` to generate a `README.md` containing all of the
-   emojis in your new folder!
+   emoji in your new folder!
 
 ## Common Errors
 

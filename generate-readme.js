@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const BANNED_FILENAMES = ['.DS_Store', 'README.md'];
-const ROOT_FOLDER = 'emojis';
+const ROOT_FOLDER = 'emoji';
 
 const notBlocked = (fileName) => {
 	return !BANNED_FILENAMES.includes(fileName);
