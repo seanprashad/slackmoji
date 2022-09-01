@@ -3,6 +3,7 @@
 - [Sets](#Sets)
   - [Blob](#blob)
   - [Blob-Sign](#blob-sign)
+  - [Froge](#froge)
   - [Gopha](#gopha)
   - [Llama](#llama)
   - [Meow](#meow)
@@ -36,6 +37,14 @@ See below for previews from each individual set:
 ![blob-sign-gg](emoji/blob-sign/blob-sign-gg.png)
 ![blob-sign-thx](emoji/blob-sign/blob-sign-thx.png)
 ![blob-sign-brb](emoji/blob-sign/blob-sign-brb.png)
+
+### [Froge](emoji/froge/README.md)
+
+![froge-angry2](emoji/froge/froge-angry2.png)
+![froge-happy2](emoji/froge/froge-happy2.gif)
+![froge-dealwithit](emoji/froge/froge-dealwithit.png)
+![froge-suspicious](emoji/froge/froge-suspicious.png)
+![froge-wink](emoji/froge/froge-wink.gif)
 
 ### [Gopha](emoji/gopha/README.md)
 
