@@ -1,0 +1,3 @@
+# froggie Emojis
+
+![froggie-angry.png](froggie-angry.png)![froggie-bonk.png](froggie-bonk.png)![froggie-celebrate.png](froggie-celebrate.png)![froggie-confused.png](froggie-confused.png)![froggie-cry.png](froggie-cry.png)![froggie-frustrated.png](froggie-frustrated.png)![froggie-heart.png](froggie-heart.png)![froggie-heartbroken.png](froggie-heartbroken.png)![froggie-pop-gif.gif](froggie-pop-gif.gif)![froggie-shocked.png](froggie-shocked.png)![froggie-sip.png](froggie-sip.png)![froggie-sleep.png](froggie-sleep.png)![froggie-sleepy.png](froggie-sleepy.png)![froggie-squish-i.png](froggie-squish-i.png)![froggie-vibing-gif.gif](froggie-vibing-gif.gif)![froggie-wave.png](froggie-wave.png)

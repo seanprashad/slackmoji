@@ -46,6 +46,14 @@ See below for previews from each individual set:
 ![froge-suspicious](emoji/froge/froge-suspicious.png)
 ![froge-wink](emoji/froge/froge-wink.gif)
 
+### [Froggie](emoji/froggie/README.md)
+
+![froggie-angry](emoji/froggie/froggie-angry.png)
+![froggie-heart](emoji/froggie/froggie-heart.png)
+![froggie-shocked](emoji/froggie/froggie-shocked.png)
+![froggie-squish-i](emoji/froggie/froggie-squish-i.png)
+![froggie-vibing-gif](emoji/froggie/froggie-vibing-gif.gif)
+
 ### [Gopha](emoji/gopha/README.md)
 
 ![gopha-ok](emoji/gopha/gopha-ok.png)
