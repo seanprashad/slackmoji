@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "emoji": [
+    {
+      "name": "test",
+      "is_alias": 0,
+      "alias_for": "",
+      "url": "https://emoji.slack-edge.com/TEST/test.png",
+      "team_id": "TEST",
+      "user_id": "TEST",
+      "created": 1,
+      "is_bad": false,
+      "user_display_name": "Test test",
+      "avatar_hash": "test",
+      "can_delete": false,
+      "synonyms": []
+    }
+  ],
+  "disabled_emoji": [],
+  "custom_emoji_total_count": 1,
+  "paging": {
+    "count": 1,
+    "total": 1,
+    "page": 1,
+    "pages": 1
+  }
+}
