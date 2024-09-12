@@ -4,6 +4,8 @@
   - [Blob](#blob)
   - [Blob-Sign](#blob-sign)
   - [Froge](#froge)
+  - [Froggie](#froggie)
+  - [He Brings You](#he-brings-you)
   - [Gopha](#gopha)
   - [Llama](#llama)
   - [Meow](#meow)
@@ -53,6 +55,15 @@ See below for previews from each individual set:
 ![froggie-shocked](emoji/froggie/froggie-shocked.png)
 ![froggie-squish-i](emoji/froggie/froggie-squish-i.png)
 ![froggie-vibing-gif](emoji/froggie/froggie-vibing-gif.gif)
+
+### [He Brings You](emoji/he-brings-you/README.md)
+
+![he-brings-you-a-knife-and-his-intentions-are-unclear](emoji/he-brings-you/he-brings-you-a-knife-and-his-intentions-are-unclear.png)
+![he-brings-you-electricity.png](emoji/he-brings-you/he-brings-you-electricity.png)
+![he-brings-you-intensify](emoji/he-brings-you/he-brings-you-intensify.gif)
+![he-brings-you-speed](emoji/he-brings-you/he-brings-you-speed.gif)
+![he-brings-you-zoom](emoji/he-brings-you/he-brings-you-zoom.gif)
+
 
 ### [Gopha](emoji/gopha/README.md)
 
