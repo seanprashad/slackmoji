@@ -8,7 +8,7 @@ OUTPUT_DIR="downloaded_emoji"
 
 # Create output directory where downloaded emoji will be stored
 mkdir -p $OUTPUT_DIR;
-
+gbgbbgbgbgbgbgbg
 # Sanitize the JSON for processing
 # Break up the file into individual lines for processing (Comma and { to NewLine)
 # Slack's emoji JSON brings an unwanted escape character "\". We need to remove it.
